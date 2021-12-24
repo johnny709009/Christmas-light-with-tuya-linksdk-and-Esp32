@@ -30,7 +30,7 @@ def on_dps(dps):
     	ser.write(b'H')
     	print('ON')
     elif(dps=={'101':False}):
-    	print("Christmas Light On.....")
+    	print("Christmas Light OFF.....")
     	time.sleep(0.1)
     	ser.write(b'L')
     	print('OFF')
